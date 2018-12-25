@@ -30,7 +30,7 @@ module.exports = (req, res) => {
   const { url, method, headers } = req
 
   // extract data from url
-  const { pathname, query } = parse(url)
+  const { pathname, query } = parse(url, true)
   const path = pathname.replace(/^\/+|\/+$/g, '')
 
   // collect payload though we don't use it now
