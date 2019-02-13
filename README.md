@@ -16,7 +16,7 @@ Sends server date time when asked for `/hello`
 // ANY /hello
 {
   "message": "Hi there!",
-  "now": "<ISO DateTime>"
+  "now": "<ISO DateTime>",
   "pid": <Responder process id>
 }
 ```
