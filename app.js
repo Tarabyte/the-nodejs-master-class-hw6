@@ -15,7 +15,8 @@ const handlers = {
   now(data, respond) {
     respond(200, {
       message: `Hi there!`,
-      now: new Date().toISOString()
+      now: new Date().toISOString(),
+      pid: process.pid
     })
   }
 }
